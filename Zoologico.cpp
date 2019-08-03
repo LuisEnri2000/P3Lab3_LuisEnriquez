@@ -56,22 +56,22 @@ class Zoo{
 			cout<<"Zona artica: "<<endl;
 			
 			for(int i=0;i<Artica.size();i++){
-				cout<<Artica[i]->getNombre()<<" "<<Artica[i]->getEspecie()<<endl;
+				cout<<Artica[i]->getNombre()<<endl;
 			}
 			cout<<"Zona desertica: "<<endl;
 			
 			for(int i=0;i<Desertica.size();i++){
-				cout<<Desertica[i]->getNombre()<<" "<<Desertica[i]->getEspecie()<<endl;
+				cout<<Desertica[i]->getNombre()<<endl;
 			}
 			cout<<"Zona de jungla tropical: "<<endl;
 			
 			for(int i=0;i<Jungla.size();i++){
-				cout<<Jungla[i]->getNombre()<<" "<<Jungla[i]->getEspecie()<<endl;
+				cout<<Jungla[i]->getNombre()<<endl;
 			}
 			cout<<"Zona sabana: "<<endl;
 			
 			for(int i=0;i<Sabana.size();i++){
-				cout<<Sabana[i]->getNombre()<<" "<<Sabana[i]->getEspecie()<<endl;
+				cout<<Sabana[i]->getNombre()<<endl;
 			}
 		}
 		
